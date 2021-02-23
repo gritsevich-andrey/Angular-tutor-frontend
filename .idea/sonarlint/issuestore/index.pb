@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
->
-src/index.html,5\c\5c975582791da6f060261188096d6aad85db6e09
 J
 src/app/app.component.html,0\6\06895b2dfff011115a8eded7e3fad29788965566
 F
@@ -40,8 +38,6 @@ U
 %src/app/auth/login/login.component.ts,6\e\6e3a5ca8015c2c527cc852188338430b51b7feb5
 I
 src/app/app.component.css,5\5\553209eb77976ca7cea08bc999bbd55a69ad0336
->
-src/styles.css,6\f\6f9d98ca6b2005fc0cd4b0f000b670b16bf3c496
 W
 'src/app/auth/login/login.component.html,7\b\7bc4dc8aa0a45a143e5543693f31327c6938d484
 [
@@ -50,14 +46,8 @@ W
 ,src/app/auth/register/register.component.css,7\4\74c7c8b3a3d4dde9b06fde06a79726b2511e87c6
 ]
 -src/app/auth/register/register.component.html,0\3\030e64644474dc04572bc4772b8111cce071b682
-;
-src/main.ts,1\a\1af9a5bdf96ddff3a2f3427ed520b7005e9564ad
-O
-src/environments/environment.ts,9\e\9e665cec867bbf89b5afc6420722808938387dc4
 H
 src/app/app.component.ts,3\0\302be76b17ec3188653bea112207e65dde129e59
-T
-$src/environments/environment.prod.ts,c\7\c7c271980f0e24b4ca8172b2c15322f125123fad
 p
 @src/app/shared/components/main-layout/main-layout.component.html,a\8\a8fd7286ab3b35377d6994cfe904a59feb08598b
 Z
@@ -96,3 +86,5 @@ b
 2src/app/admin/create-page/create-page.component.ts,a\9\a94da2557a1ca8c54e0f7e0f347adffdaf1d1844
 d
 4src/app/admin/create-page/create-page.component.html,b\8\b8df9377a09e84e89eb31f37acbae392d69297d5
+o
+?src/app/shared/components/main-layout/main-layout.component.css,7\2\7267a61585641001783cccd0546abc9824cb931c

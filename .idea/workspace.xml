@@ -13,25 +13,27 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:angular" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:fitness" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:fitness" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:fitness/angular" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7d684e-8079-4684-8c1d-c8c84393062b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/admin/shared/services/auth.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
@@ -47,6 +49,17 @@
       <change afterPath="$PROJECT_DIR$/src/app/shared/components/post/post.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/interfaces.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1af9a5bdf96ddff3a2f3427ed520b7005e9564ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c975582791da6f060261188096d6aad85db6e09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f9d98ca6b2005fc0cd4b0f000b670b16bf3c496" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e665cec867bbf89b5afc6420722808938387dc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c271980f0e24b4ca8172b2c15322f125123fad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.html" afterDir="false" />
@@ -117,7 +130,7 @@
         <entry key="$PROJECT_DIR$" value="angular" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -136,7 +149,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/fitness_projet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Старт/Projects/fitness_projet" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -208,6 +221,8 @@
       <workItem from="1613494469759" duration="4640000" />
       <workItem from="1613666150564" duration="13040000" />
       <workItem from="1614009267976" duration="6113000" />
+      <workItem from="1614018381592" duration="340000" />
+      <workItem from="1614075282474" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Register +">
       <created>1613345597814</created>
@@ -233,7 +248,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="fitness/angular" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -272,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1613409285078" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614012865683">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614075318147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614012865683" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614075318147" />
     <state width="1323" height="103" key="GridCell.Tab.0.bottom" timestamp="1612638853727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,10 +323,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="278" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1613345291213" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1614015198428">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1614018585879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614015198428" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614018585879" />
     <state x="474" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1613337619717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
