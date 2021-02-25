@@ -19,21 +19,13 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:angular" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7d684e-8079-4684-8c1d-c8c84393062b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/admin/shared/services/auth.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
@@ -49,15 +41,6 @@
       <change afterPath="$PROJECT_DIR$/src/app/shared/components/post/post.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/interfaces.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1af9a5bdf96ddff3a2f3427ed520b7005e9564ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c975582791da6f060261188096d6aad85db6e09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f9d98ca6b2005fc0cd4b0f000b670b16bf3c496" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e665cec867bbf89b5afc6420722808938387dc4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c271980f0e24b4ca8172b2c15322f125123fad" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin.module.ts" afterDir="false" />
@@ -77,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/login.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/login.component.html" afterDir="false" />
@@ -98,6 +82,7 @@
       <change beforePath="$PROJECT_DIR$/src/app/services/notification.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/notification.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/token-storage.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/token-storage.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +115,7 @@
         <entry key="$PROJECT_DIR$" value="angular" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/app" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -156,7 +141,7 @@
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="E:\Старт\fitness\client\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\it-academy\Enterprise\Задания\My final project frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -223,6 +208,7 @@
       <workItem from="1614009267976" duration="6113000" />
       <workItem from="1614018381592" duration="340000" />
       <workItem from="1614075282474" duration="35000" />
+      <workItem from="1614099555738" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="Register +">
       <created>1613345597814</created>
@@ -248,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="angular" />
                       </list>
                     </value>
                   </entry>
@@ -287,26 +273,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1613409285078" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614075318147">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614102706928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614075318147" />
-    <state width="1323" height="103" key="GridCell.Tab.0.bottom" timestamp="1612638853727">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614102706928" />
+    <state width="1262" height="142" key="GridCell.Tab.0.bottom" timestamp="1614102711531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612638853727" />
-    <state width="1323" height="103" key="GridCell.Tab.0.center" timestamp="1612638853726">
+    <state width="1262" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614102711531" />
+    <state width="1262" height="142" key="GridCell.Tab.0.center" timestamp="1614102711531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="103" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612638853726" />
-    <state width="1323" height="103" key="GridCell.Tab.0.left" timestamp="1612638853726">
+    <state width="1262" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614102711531" />
+    <state width="1262" height="142" key="GridCell.Tab.0.left" timestamp="1614102711531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="103" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612638853726" />
-    <state width="1323" height="103" key="GridCell.Tab.0.right" timestamp="1612638853727">
+    <state width="1262" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614102711531" />
+    <state width="1262" height="142" key="GridCell.Tab.0.right" timestamp="1614102711531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="103" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612638853727" />
+    <state width="1262" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614102711531" />
     <state x="263" y="107" key="IDE.errors.dialog" timestamp="1613344091379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
