@@ -116,3 +116,15 @@ a
 1src/app/admin/users-page/users-page.component.css,4\9\493fac4ec0727e32314bf6f1f8363115e3e2c931
 b
 2src/app/admin/users-page/users-page.component.html,3\1\318ab6d940324a86a2e44bba29169ba4482b935c
+R
+"src/app/pupil-page/pupil.module.ts,1\9\19c6d08e4234135a051c6ca65df6956d65c3dd5f
+\
+,src/app/pupil-page/pupil-page.component.html,5\2\5207a7e77319d0ce2f247e1c4906b17f274e2bdc
+Z
+*src/app/pupil-page/pupil-page.component.ts,8\4\84b6a462bc84a8f93f02835c8b72841cb7168c02
+o
+?src/app/pupil-page/find-instructor/find-instructor.component.ts,8\2\826302637c4667df5487efc795063d0448f4d34c
+q
+Asrc/app/pupil-page/find-instructor/find-instructor.component.html,c\c\ccded5fac0788ed3e6e793723572c5fa601dadf2
+p
+@src/app/pupil-page/find-instructor/find-instructor.component.css,0\8\08319f6c57c8fbd388e1cea6b4447e03e3522e7c

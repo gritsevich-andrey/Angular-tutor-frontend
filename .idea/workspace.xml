@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c7d684e-8079-4684-8c1d-c8c84393062b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/admin/shared/services/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/create-user/create-user.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/create-user/create-user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/create-user/create-user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/shared/services/adminAuth.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/post-page/post-page.component.css" afterDir="false" />
@@ -48,16 +50,17 @@
       <change afterPath="$PROJECT_DIR$/src/app/shared/components/post/post.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/interfaces.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app" beforeDir="false" afterPath="$PROJECT_DIR$/src/app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/create-page/create-page.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/dashboard-page/dashboard-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboard-page/dashboard-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/dashboard-page/dashboard-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboard-page/dashboard-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/edit-page/edit-page.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/login-page/login-page.component.ts" afterDir="false" />
@@ -141,7 +144,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/pupil-page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/admin/shared/services" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -157,17 +160,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="E2E Tests (client)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -191,7 +183,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -229,7 +221,8 @@
       <workItem from="1614018381592" duration="340000" />
       <workItem from="1614075282474" duration="35000" />
       <workItem from="1614099555738" duration="2110000" />
-      <workItem from="1614881769303" duration="954000" />
+      <workItem from="1614881769303" duration="1249000" />
+      <workItem from="1615481940702" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="Register +">
       <created>1613345597814</created>
@@ -242,7 +235,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -272,5 +265,27 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Register +" />
     <option name="LAST_COMMIT_MESSAGE" value="Register +" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615484436873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615484436873" />
+    <state width="1262" height="46" key="GridCell.Tab.0.bottom" timestamp="1615484551129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1262" height="46" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615484551129" />
+    <state width="1262" height="46" key="GridCell.Tab.0.center" timestamp="1615484551129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1262" height="46" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615484551129" />
+    <state width="1262" height="46" key="GridCell.Tab.0.left" timestamp="1615484551129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1262" height="46" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615484551129" />
+    <state width="1262" height="46" key="GridCell.Tab.0.right" timestamp="1615484551129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1262" height="46" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615484551129" />
   </component>
 </project>
