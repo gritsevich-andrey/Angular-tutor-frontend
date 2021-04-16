@@ -19,6 +19,9 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 a {
   color: var(--primary-color);
@@ -34,10 +37,7 @@ ul {
 img {
   width: 100%;
 }
-.container {
-  overflow: hidden;
-  padding: 0 2rem;
-}
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -219,6 +219,6 @@ table th, table td {
   color: #333;
 }
 .green-snackbar {
-  background: var(--success-color);
+  background: #26a69a;
   color: #f4f4f4;
 }

@@ -9,5 +9,6 @@ export const environment: Constrants = {
   LESSONS_API: '/lessons',
   CATEGORY_API: '/categories',
   INSTR_API: '/instructors',
-  PROGRAM_API: '/programs'
+  PROGRAM_API: '/programs',
+  BUYING_API: '/buying'
 };

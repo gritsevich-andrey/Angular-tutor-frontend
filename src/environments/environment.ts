@@ -13,7 +13,8 @@ export const environment: Constrants = {
   LESSONS_API: '/lessons',
   CATEGORY_API: '/categories',
   INSTR_API: '/instructors',
-  PROGRAM_API: '/programs'
+  PROGRAM_API: '/programs',
+  BUYING_API: '/buying'
 };
 /*
  * For easier debugging in development mode, you can import the following file

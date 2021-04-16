@@ -8,4 +8,5 @@ export interface Constrants {
   INSTR_API: string;
   CATEGORY_API: string;
   PROGRAM_API: string;
+  BUYING_API: string;
 }
