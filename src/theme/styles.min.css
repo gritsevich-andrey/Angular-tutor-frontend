@@ -20,7 +20,7 @@ nav {
 }
 .sidenav.sidenav-fixed {
   left: 0;
-  top: auto;
+  top: 66px;
   transform: translateX(0);
   position: fixed;
 }
@@ -68,4 +68,9 @@ html{
   /*grid-row-start: 2;*/
   /*grid-row-end: 3;*/
 }
-
+.mat-input-element {
+  color: #000000!important;
+}
+.right-bubble::after{
+  color: #000000!important;
+}
