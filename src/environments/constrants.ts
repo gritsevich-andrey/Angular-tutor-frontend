@@ -9,4 +9,7 @@ export interface Constrants {
   CATEGORY_API: string;
   PROGRAM_API: string;
   BUYING_API: string;
+  wsEndpoint: string;
+  urls: string;
+  RTCPeerConfiguration: any;
 }
